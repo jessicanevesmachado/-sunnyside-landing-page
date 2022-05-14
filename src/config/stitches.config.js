@@ -24,7 +24,7 @@ export const {
       white: "hsl(0, 0%, 100%)",
     },
     fontSizes: {
-      body: "100px",
+      body: "18px",
     },
     fonts: {
       barlowSemiBold: "BarlowSemiBold",
