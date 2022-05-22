@@ -7,6 +7,7 @@ export const Header = () => {
         <Styled.HeaderTitle>sunnyside</Styled.HeaderTitle>
         <Menu />
       </Styled.WrapperHeader>
+      <Styled.Title>We Are Creatives</Styled.Title>
     </Styled.Header>
   );
 };

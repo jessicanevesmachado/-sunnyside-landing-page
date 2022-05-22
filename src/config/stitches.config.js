@@ -14,7 +14,7 @@ export const {
     colors: {
       softRed: "hsl(7, 99%, 70%)",
       yellow: "hsl(51, 100%, 49%)",
-      darkDesaturatedCyan: "hsl(167, 40%, 24%)",
+      darkGreen: "hsl(167, 40%, 24%)",
       darkBlue: "hsl(198, 62%, 26%)",
       darkModerateCyan: "hsl(168, 34%, 41%)",
       veryDarkDesaturatedBlue: "hsl(212, 27%, 19%)",
@@ -22,6 +22,8 @@ export const {
       darkGrayishBlue: "hsl(213, 9%, 39%)",
       grayishBlue: "hsl(210, 4%, 67%)",
       white: "hsl(0, 0%, 100%)",
+      lightBlue: "#56C1F7",
+      lightGreen: "#98DACE",
     },
     fontSizes: {
       body: "18px",
@@ -33,7 +35,7 @@ export const {
     },
   },
   media: {
-    mobile: "(min-width: 375px)",
+    mobile: "(max-width: 480px)",
     desktop: "(min-width: 1440px)",
   },
 });
