@@ -1,7 +1,7 @@
 import * as Styled from "./Styled";
-import emily from "../../assets/images/image-emily.jpg";
-import jennie from "../../assets/images/image-jennie.jpg";
-import thomas from "../../assets/images/image-thomas.jpg";
+import emily from "/src/assets/images/image-emily.jpg";
+import jennie from "/src/assets/images/image-jennie.jpg";
+import thomas from "/src/assets/images/image-thomas.jpg";
 
 export const Testimonials = () => {
   return (
@@ -23,8 +23,8 @@ export const Testimonials = () => {
         <Styled.Avatar src={thomas} alt="Imagem do Thomas" />
 
         <Styled.Description>
-          We put our trust in Sunnyside an they delivered, making sure our needs
-          were met and deadlines were always hit.
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
+          success made it a satisfying and enjoyable experience.
         </Styled.Description>
 
         <Styled.Author>Thomas S.</Styled.Author>
@@ -35,8 +35,8 @@ export const Testimonials = () => {
         <Styled.Avatar src={jennie} alt="Imagem da Jennie" />
 
         <Styled.Description>
-          We put our trust in Sunnyside an they delivered, making sure our needs
-          were met and deadlines were always hit.
+          Incredible end result! Our sales increased over 400% when we worked
+          with Sunnyside. Highly recommended!
         </Styled.Description>
 
         <Styled.Author>Jennie F.</Styled.Author>

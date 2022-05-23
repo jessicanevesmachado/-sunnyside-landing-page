@@ -6,7 +6,7 @@ export const Section = styled("section", {
   backgroundColor: "$white",
   justifyContent: "center",
   minHeight: "200px",
-  marginBottom: "60px",
+  marginBottom: "50px",
   "@mobile": {
     flexDirection: "column",
   },
@@ -31,24 +31,25 @@ export const Title = styled("h3", {
   marginTop: "90px",
   fontFamily: "$frauncesBold",
   textTransform: "uppercase",
-  color: "#A4A4A6",
+  color: "$darkGrayishBlue",
   fontSize: "17px",
+  letterSpacing: "3px",
 });
 
 export const Description = styled("p", {
-  fontSize: "12px",
+  fontSize: "$body",
   lineHeight: "1.5",
   fontFamily: "$barlowSemiBold",
   color: "#7B7E81",
   marginBottom: "15px",
   padding: "20px",
-  maxWidth: "200px",
+  maxWidth: "300px",
 });
 
 export const Author = styled("p", {
   color: "black",
-  fontSize: "12px",
-  fontFamily: "$barlowSemiBold",
+  fontSize: "14px",
+  fontFamily: "$frauncesBold",
   marginBottom: "10px",
 });
 

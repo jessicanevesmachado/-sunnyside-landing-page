@@ -27,6 +27,8 @@ export const {
     },
     fontSizes: {
       body: "18px",
+      title: "36px",
+      subtitle: "24px",
     },
     fonts: {
       barlowSemiBold: "BarlowSemiBold",

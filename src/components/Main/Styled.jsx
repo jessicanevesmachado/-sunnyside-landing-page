@@ -53,11 +53,11 @@ export const Section = styled("section", {
 });
 
 export const Title = styled("h2", {
-  fontSize: "$1",
+  fontSize: "$title",
   fontFamily: "$barlowSemiBlack",
   width: "100%",
-  textAlign: "center",
-  marginBottom: "15px",
+
+  marginBottom: "24px",
 
   variants: {
     color: {
@@ -72,11 +72,10 @@ export const Title = styled("h2", {
 });
 
 export const Description = styled("p", {
-  fontSize: "12px",
+  fontSize: "$body",
   fontFamily: "$barlowSemiBold",
   color: "#374151",
-  marginBottom: "15px",
-  padding: "20px",
+  marginBottom: "24px",
 
   variants: {
     color: {
@@ -96,6 +95,7 @@ export const Link = styled("a", {
   textDecoration: "none",
   color: "black",
   borderBottom: "1px solid $yellow",
+  fontSize: "$body",
 });
 
 export const ImageEgg = styled("img", {
@@ -141,4 +141,8 @@ export const TangerineSection = styled(Section, {
 export const Wrapper = styled("div", {
   padding: "350px 20px 40px 20px",
   textAlign: "center",
+});
+
+export const SectionItem = styled("div", {
+  padding: "5rem",
 });
