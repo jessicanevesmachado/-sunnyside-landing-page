@@ -1,10 +1,9 @@
 import { styled } from "@/config/stitches.config";
 
-const headerDesktop = "/src/assets/images/desktop/image-header.jpg";
-const headerMobile = "/src/assets/images/mobile/image-header.jpg";
+import headerDesktop from "../../assets/images/desktop/image-header.jpg";
+import headerMobile from "../../assets/images/mobile/image-header.jpg";
 
-const logo = "/src/assets/images/logo.svg";
-
+import logo from "../../assets/images/logo.svg";
 export const Header = styled("header", {
   display: "flex",
   flexDirection: "column",
