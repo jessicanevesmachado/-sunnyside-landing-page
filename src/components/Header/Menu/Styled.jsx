@@ -71,4 +71,13 @@ export const Link = styled("a", {
     visibility: "visible",
   },
 });
+
+export const LinkMenu = styled("a", {
+  textDecoration: "none",
+  color: "white",
+
+  "&:hover": {
+    color: "black",
+  },
+});
 export const Icon = styled("img", {});

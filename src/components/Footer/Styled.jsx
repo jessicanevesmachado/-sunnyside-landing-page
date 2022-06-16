@@ -46,3 +46,8 @@ export const WrapperSocialMedia = styled("section", {
 export const Icone = styled("img", {
   paddingLeft: "10px",
 });
+
+export const Link = styled("a", {
+  textDecoration: "none",
+  color: "$darkGreen",
+});

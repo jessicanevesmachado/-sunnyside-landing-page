@@ -3,7 +3,12 @@ import * as Styled from "./Styled";
 import hamburger from "/src/assets/images/icon-hamburger.svg";
 
 export const Menu = () => {
-  const [menus] = useState(["About", "Services", "Projects", "Contact"]);
+  const [menus] = useState([
+    ["About", "#about-section"],
+    ["Services", "#services-section"],
+    ["Projects", "#projects-section"],
+    ["Contact", "#contact-section"],
+  ]);
   const [open, setOpen] = useState(null);
   return (
     <>
@@ -18,9 +23,14 @@ export const Menu = () => {
 
       <Styled.Navbar>
         <Styled.ListContainer open={open}>
-          {menus.map((item, index) => (
-            <Styled.ListItem key={index}>{item}</Styled.ListItem>
-          ))}
+          {menus.map((item, index) => {
+            console.log("href: " + item[1] + " link: " + item[0]);
+            return (
+              <Styled.ListItem key={index}>
+                <Styled.LinkMenu href={item[1]}>{item[0]}</Styled.LinkMenu>
+              </Styled.ListItem>
+            );
+          })}
         </Styled.ListContainer>
       </Styled.Navbar>
     </>

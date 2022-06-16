@@ -5,7 +5,7 @@ import thomas from "/src/assets/images/image-thomas.jpg";
 
 export const Testimonials = () => {
   return (
-    <Styled.Section>
+    <Styled.Section id="projects-section">
       <Styled.Title>Client Testimonials</Styled.Title>
 
       <Styled.Article>

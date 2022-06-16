@@ -7,7 +7,7 @@ export const Main = () => {
     <main>
       <Styled.Article>
         <Styled.Section color="white">
-          <Styled.SectionItem>
+          <Styled.SectionItem id="about-section">
             <Styled.Title>Transform your brand</Styled.Title>
             <Styled.Description>
               We are a full-service creative agency specializing in helping
@@ -38,7 +38,7 @@ export const Main = () => {
           </Styled.SectionItem>
         </Styled.Section>
 
-        <Styled.CherrySection color="green">
+        <Styled.CherrySection color="green" id="services-section">
           <Styled.Wrapper>
             <Styled.Title color="darkGreen">Grapic Design</Styled.Title>
             <Styled.Description color="darkGreen">
