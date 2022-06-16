@@ -76,8 +76,8 @@ export const LinkMenu = styled("a", {
   textDecoration: "none",
   color: "white",
 
-  "&:hover": {
-    color: "black",
+  "@mobile": {
+    color: "$darkGrayishBlue",
   },
 });
 export const Icon = styled("img", {});
