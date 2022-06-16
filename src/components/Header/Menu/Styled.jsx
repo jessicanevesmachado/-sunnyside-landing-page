@@ -1,4 +1,4 @@
-import { styled, keyframes } from "@/config/stitches.config";
+import { styled } from "@/config/stitches.config";
 
 export const Navbar = styled("nav", {
   marginRight: "30px",
@@ -20,15 +20,17 @@ export const ListContainer = styled("ul", {
     backgroundColor: "$white",
     margin: "10px",
     overflow: "hidden",
-    transition: "all 0.5s ease-in-out",
-    transformOrigin: "left top",
-    transform: "scaleY(0)",
+    // transition: "all 0.5s ease-in-out",
+    // transformOrigin: "left top",
+    // transform: "scaleY(0)",
+    visibility: "hidden",
   },
 
   variants: {
     open: {
       true: {
-        transform: "scaleY(1)",
+        // transform: "scaleY(1)",
+        visibility: "visible",
       },
     },
   },
