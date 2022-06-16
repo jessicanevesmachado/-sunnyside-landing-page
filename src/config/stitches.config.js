@@ -37,7 +37,7 @@ export const {
     },
   },
   media: {
-    mobile: "(max-width: 480px)",
+    mobile: "(max-width: 600px)", //480px
     desktop: "(min-width: 1440px)",
   },
 });

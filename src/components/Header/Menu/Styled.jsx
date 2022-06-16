@@ -1,14 +1,37 @@
-import { styled } from "@/config/stitches.config";
+import { styled, keyframes } from "@/config/stitches.config";
+
 export const Navbar = styled("nav", {
   marginRight: "30px",
   marginTop: "30px",
+
   "@mobile": {
-    display: "none",
+    position: "absolute",
+    width: "100%;",
+    top: "38px",
   },
 });
 export const ListContainer = styled("ul", {
   display: "flex",
   listStyleType: "none",
+
+  "@mobile": {
+    flexDirection: "column",
+    alignItems: "center",
+    backgroundColor: "$white",
+    margin: "10px",
+    overflow: "hidden",
+    transition: "all 0.5s ease-in-out",
+    transformOrigin: "left top",
+    transform: "scaleY(0)",
+  },
+
+  variants: {
+    open: {
+      true: {
+        transform: "scaleY(1)",
+      },
+    },
+  },
 });
 export const ListItem = styled("li", {
   color: "$white",
@@ -24,4 +47,26 @@ export const ListItem = styled("li", {
     borderRadius: "15px",
   },
   cursor: "pointer",
+
+  "@mobile": {
+    color: "$darkGrayishBlue",
+    textAlign: "center",
+
+    "&:hover": {
+      backgroundColor: "$yellow",
+      borderRadius: "15px",
+    },
+  },
 });
+
+export const Link = styled("a", {
+  position: "absolute",
+  right: "8px",
+  top: "30px",
+  visibility: "hidden",
+
+  "@mobile": {
+    visibility: "visible",
+  },
+});
+export const Icon = styled("img", {});

@@ -22,6 +22,12 @@ export const WrapperHeader = styled("section", {
   with: "100%",
   display: "flex",
   justifyContent: "space-between",
+  position: "relative",
+
+  "@mobile": {
+    flexDirection: "column",
+    justifyContent: "center",
+  },
 });
 
 export const Brand = styled("a", {
