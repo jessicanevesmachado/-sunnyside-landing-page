@@ -37,7 +37,6 @@ export const ListContainer = styled("ul", {
   },
 });
 export const ListItem = styled("li", {
-  color: "$white",
   fontSize: "14px",
   fontFamily: "$barlowSemiBold",
   display: "block",
@@ -45,9 +44,12 @@ export const ListItem = styled("li", {
   padding: "10px",
 
   "&:hover": {
-    color: "black",
     backgroundColor: "$white",
     borderRadius: "15px",
+
+    a: {
+      color: "black",
+    },
   },
   cursor: "pointer",
 
