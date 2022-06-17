@@ -13,25 +13,23 @@ export const Navbar = styled("nav", {
 export const ListContainer = styled("ul", {
   display: "flex",
   listStyleType: "none",
-  // clipPath: "polygon(0 9%, 92% 9%, 100% 0, 100% 100%, 0 100%)",
   marginTop: "30px",
+
   "@mobile": {
     flexDirection: "column",
     alignItems: "center",
     backgroundColor: "$white",
     margin: "10px",
     overflow: "hidden",
-    // transition: "all 0.5s ease-in-out",
-    // transformOrigin: "left top",
-    // transform: "scaleY(0)",
-    visibility: "hidden",
+    transform: "scaleY(0)",
+    transformOrigin: "top",
+    transition: "transform 0.26s ease",
   },
 
   variants: {
     open: {
       true: {
-        // transform: "scaleY(1)",
-        visibility: "visible",
+        transform: "scaleY(1)",
       },
     },
   },
