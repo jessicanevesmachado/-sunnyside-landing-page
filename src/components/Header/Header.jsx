@@ -1,5 +1,6 @@
 import * as Styled from "./Styled";
 import { Menu } from "./Menu/Menu";
+import ArrowDown from "/src/assets/images/icon-arrow-down.svg";
 export const Header = () => {
   return (
     <Styled.Header>
@@ -10,6 +11,9 @@ export const Header = () => {
         <Menu />
       </Styled.WrapperHeader>
       <Styled.Title>We Are Creatives</Styled.Title>
+      <Styled.IconArrowDown>
+        <Styled.ArrowDown />
+      </Styled.IconArrowDown>
     </Styled.Header>
   );
 };

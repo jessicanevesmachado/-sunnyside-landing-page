@@ -14,7 +14,9 @@ export const Main = () => {
               brands grow fast. Engage your clients through compelling visuals
               that do most of the marketing for you.
             </Styled.Description>
-            <Styled.Link href="#">Learn more</Styled.Link>
+            <Styled.Link color="yellow" href="#">
+              Learn more
+            </Styled.Link>
           </Styled.SectionItem>
         </Styled.Section>
 
@@ -34,7 +36,9 @@ export const Main = () => {
               photographers, videographers, and copywriters, we’ll build and
               extend your brand in digital places.
             </Styled.Description>
-            <Styled.Link href="#">Learn more</Styled.Link>
+            <Styled.Link color="pink" href="#">
+              Learn more
+            </Styled.Link>
           </Styled.SectionItem>
         </Styled.Section>
 

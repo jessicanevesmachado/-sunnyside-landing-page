@@ -13,7 +13,8 @@ export const Navbar = styled("nav", {
 export const ListContainer = styled("ul", {
   display: "flex",
   listStyleType: "none",
-
+  // clipPath: "polygon(0 9%, 92% 9%, 100% 0, 100% 100%, 0 100%)",
+  marginTop: "30px",
   "@mobile": {
     flexDirection: "column",
     alignItems: "center",
@@ -78,6 +79,10 @@ export const LinkMenu = styled("a", {
 
   "@mobile": {
     color: "$darkGrayishBlue",
+  },
+
+  "&:hover": {
+    color: "black",
   },
 });
 export const Icon = styled("img", {});

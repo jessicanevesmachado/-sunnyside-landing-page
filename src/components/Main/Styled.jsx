@@ -94,8 +94,23 @@ export const Link = styled("a", {
   textTransform: "uppercase",
   textDecoration: "none",
   color: "black",
-  borderBottom: "1px solid $yellow",
   fontSize: "$body",
+  variants: {
+    color: {
+      yellow: {
+        borderBottom: "8px solid #ffef94",
+        "&:hover": {
+          borderBottom: "8px solid $yellow",
+        },
+      },
+      pink: {
+        borderBottom: "8px solid #ffd2cc",
+        "&:hover": {
+          borderBottom: "8px solid #FF7465",
+        },
+      },
+    },
+  },
 });
 
 export const ImageEgg = styled("img", {
